@@ -1,6 +1,13 @@
 //Task 1
 function largest(list){
-
+  let largest=lists[0]
+  for(let l=0; l < list.length; l++){
+    if (list[l]>largest){
+      //update
+      largest = ;
+    }
+  }
+  return largest;
 }
 
 //Task 2
@@ -16,6 +23,7 @@ function cotains(list,e){
 //Task 4
 function oddElements(list){
 
+for(let)
 }
 
 //Task 5
@@ -46,7 +54,7 @@ function weave(listA, listB){
 //Task 10
 //Attempt last
 function mergeInOrder(listA, listB){
-    
+
 }
 
 //Task 11
@@ -57,4 +65,8 @@ function rotate(list,k){
 //Task 12
 function fibonacci(){
 
+}
+
+function main(){
+  lists.largest = [0,1,2,3,4,5,6,7,8];
 }
