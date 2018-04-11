@@ -4,7 +4,7 @@ function largest(list){
   for(let l=0; l < list.length; l++){
     if (list[l]>largest){
       //update
-      largest = ;
+      largest = list[l];
     }
   }
   return largest;
@@ -12,7 +12,8 @@ function largest(list){
 
 //Task 2
 function reverse(list){
-
+let reverselist = []
+for(c=8; c > reverse.list; c)
 }
 
 //Task 3
@@ -22,8 +23,9 @@ function cotains(list,e){
 
 //Task 4
 function oddElements(list){
-
-for(let)
+let oddlist = []
+for(let b=1; b < b.length; a = a + 2);
+oddlist.push(list.length)
 }
 
 //Task 5
