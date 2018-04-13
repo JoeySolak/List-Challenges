@@ -13,9 +13,10 @@ function largest(list){
 //Task 2
 function reverse(list){
 let reverselist = [];
-for(c=8; c > reverse.list; c++){
-
-  }
+for(c=0; c < list.length; c++){
+    reverselist.push(list[list.length-c-1])
+    }
+        return reverselist;
 }
 
 //Task 3
@@ -31,9 +32,11 @@ let containslist = [];
 
 //Task 4
 function oddElements(list){
-let oddlist = [];
-for(let b=1; b < b.length; a = a + 2);
-oddlist.push(list.length)
+    let oddlist = [];
+    for(let b=1; b < list.length; b = b + 2){
+        oddlist.push(list[b]);
+    }
+    return oddlist;
 }
 
 //Task 5
@@ -46,7 +49,13 @@ function total(list){
 
 //Task 6
 function isPalindrome(list){
-
+let palindrome = [];
+for(a=0; a < (list.length)/2; a++){
+    if (list[a] != list[list.length-1-a]){
+        return false;
+    }
+}
+return true;
 }
 
 //Task 7
@@ -82,4 +91,6 @@ function fibonacci(){
 console.log(cotains([0,1,2,3,4,5,6,7,8],3));
 console.log(total([0,1,2,3,4,5,6,7,8]));
 console.log(largest([0,1,2,3,4,5,6,7,8]));
-console.log(odd([0,1,2,3,4,5,6,7,8]));
+console.log(oddElements([0,1,2,3,4,5,6,7,8]));
+console.log(isPalindrome([0,1,2,3,4,5,6,7,8]));
+console.log(reverse([0,1,2,3,4,5,6,7,8]));
